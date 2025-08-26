@@ -3,33 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Voyageur Globe-Trotter</title>
+<title>Voyages Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-<h1>Bienvenue sur Voyageur Globe-Trotter</h1>
-<p>Explorez le monde avec nous !</p>
+  <nav>
+    <div class="logo">Voyages Pro</div>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="galerie.html">Galerie</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h1>Explorez le monde avec nous</h1>
+    <p>Des voyages uniques et mémorables</p>
+    <a href="destinations.html" class="btn">Découvrir nos voyages</a>
+  </div>
 </header>
-<nav>
-<a href="index.html">Accueil</a>
-<a href="destinations.html">Destinations</a>
-<a href="blog.html">Blog</a>
-<a href="galerie.html">Galerie</a>
-<a href="contact.html">Contact</a>
-</nav>
-<section>
-<h2>Destinations phares</h2>
-<p>Découvrez les plus belles destinations à travers le monde : plages, montagnes, villes historiques et aventures uniques.</p>
-<ul>
-<li>Paris, France</li>
-<li>Bali, Indonésie</li>
-<li>New York, USA</li>
-<li>Le Cap, Afrique du Sud</li>
-</ul>
+
+<section class="dest-populaires">
+  <h2>Destinations Populaires</h2>
+  <div class="grid">
+    <div class="card"><img src="https://source.unsplash.com/400x300/?paris" alt=""><h3>Paris</h3></div>
+    <div class="card"><img src="https://source.unsplash.com/400x300/?bali" alt=""><h3>Bali</h3></div>
+    <div class="card"><img src="https://source.unsplash.com/400x300/?new-york" alt=""><h3>New York</h3></div>
+    <div class="card"><img src="https://source.unsplash.com/400x300/?cap-town" alt=""><h3>Le Cap</h3></div>
+  </div>
 </section>
+
 <footer>
-<p>&copy; 2025 Voyageur Globe-Trotter</p>
+  <p>&copy; 2025 Voyages Pro | Suivez-nous : 
+    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+  </p>
 </footer>
+
+<script src="script.js"></script>
 </body>
 </html>
